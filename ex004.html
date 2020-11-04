@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+
+            font: normal 20pt Arial;
+        }
+    
+    </style>
+</head>
+<body>
+    <script>
+    var nome = window.prompt('Qual é seu nome') // Pergunta que gera no site
+    document. write(`Olá <strong>${nome}</strong>! Seu nome tem ${nome.length} Letras. </br>`) // esse </br> serve para quebrar a linha.. Conta quantos numero tem meu nome :D
+    document.write(` Seu nome em maiúsculo é ${nome.toUpperCase()}</br>`)  // DOCUMENTO WRITE ESCREVE NA TELA EM BRANCO
+    document.write(`Seu nome em minúscula é ${nome.toLocaleLowerCase()}` )
+
+// Formatar Números testando no NODE JS ESSE COMANDO ABAIXO
+// Ex. var n1 = 1543.5 se eu quiser com 2 casas decimais n1.toFixed(2)
+// Se eu quiser trocar o ponto por virgula fazer n1.toFixed(2).replace('.',',')
+// como faz para mostra salario em real ou dolar com o sifrão n1.toLocaleString('pt-BR', {style:'currency', currency:  'BRL'})
+//n1.toLocaleString('pt-BR', {style:'currency', currency:  'USD'}) DÓLAR
+//n1.toLocaleString('pt-BR', {style:'currency', currency:  'EUR'}) EURO
+
+
+
+
+
+    </script>
+    
+
+</body>
+</html>

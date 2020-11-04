@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(74, 74, 209); /* Cor que sai no fundo do Site CSS*/
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1{
+            color: rgba(255, 255, 0, 0.945);
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Olá, mundo!</h1> <!--Título do site HTML-->
+    <p>Já me livrei da maldição</p><!--parágrafo que vai embaixo do título-->
+    <script>
+    var n1 = Number( window.prompt('Digite um número')) // string
+    var n2 = Number(window.prompt('Digite outro número')) // string
+    var s = n1 + n2
+    window.alert(` A soma entre o numero ${n1} e ${n2} é igual a ${s}`) // + concatenação
+    // ( number + number) Para adição
+    //(string + string) para concatenação
+
+    // Conversão de string para números
+
+    // 1 Number.parselnt(n) de um número para um número inteiro
+    // 2 Number.parseFloat(n) número real com virgula com o ponto ex 5.3
+    // 3 Number(n) o javaScript quem vai decidir se e inteiro ou não ele faz a conversão sozinho sem precisar usar o 1 e o 2
+   
+   // Conversão de Número para string
+
+   // 1 String
+   //2 n.toString
+   //   'Eu estou aprendendo s'  // não faz interpolação
+   // 'Eu estou aprendendo' + s // usa concatenação
+   //'Eu estou aprendendo' ${s} // usa template string usar (Crase ´ ´) não preciso ficar juntando com +
+   // s.length // quantos caracteres a string tem
+   // s.toUpperCase() // tudo para "Maiúsculas"
+   // s.toLowerCases() // tudo para 'Minusculo'
+
+   
+    </script>
+</body>
+</html>
